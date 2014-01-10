@@ -1,0 +1,3 @@
+[submodule "lib/LMObjCUtils"]
+	path = lib/LMObjCUtils
+	url = git://github.com/lightmedium/LMObjCUtils

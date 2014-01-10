@@ -18,7 +18,52 @@
 		1BC4C2DD187F8BCF00433226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC4C2C2187F8BCE00433226 /* Foundation.framework */; };
 		1BC4C2DE187F8BCF00433226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC4C2C6187F8BCE00433226 /* UIKit.framework */; };
 		1BC4C2E6187F8BCF00433226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C2E4187F8BCF00433226 /* InfoPlist.strings */; };
-		1BC4C2E8187F8BCF00433226 /* DRYTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2E7187F8BCF00433226 /* DRYTableViewTests.m */; };
+		1BC4C3FA187F8CA900433226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2F5187F8CA800433226 /* AppDelegate.m */; };
+		1BC4C3FB187F8CA900433226 /* DTVFormDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2F8187F8CA800433226 /* DTVFormDataProvider.m */; };
+		1BC4C3FC187F8CA900433226 /* DTVFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FA187F8CA800433226 /* DTVFormField.m */; };
+		1BC4C3FD187F8CA900433226 /* DTVFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FC187F8CA800433226 /* DTVFormSection.m */; };
+		1BC4C3FE187F8CA900433226 /* DTVDomainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */; };
+		1BC4C3FF187F8CA900433226 /* WDCSalesForceDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C303187F8CA800433226 /* WDCSalesForceDAO.m */; };
+		1BC4C400187F8CA900433226 /* DTVConfigDrivenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C306187F8CA800433226 /* DTVConfigDrivenTableViewCell.m */; };
+		1BC4C401187F8CA900433226 /* DTVTextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C308187F8CA800433226 /* DTVTextInputCell.m */; };
+		1BC4C402187F8CA900433226 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30B187F8CA800433226 /* RootViewController.m */; };
+		1BC4C403187F8CA900433226 /* DTVConfigDrivenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30D187F8CA800433226 /* DTVConfigDrivenTableViewController.m */; };
+		1BC4C404187F8CA900433226 /* WDCLeadFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */; };
+		1BC4C405187F8CA900433226 /* WDCLeadFormTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */; };
+		1BC4C406187F8CA900433226 /* WDCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C312187F8CA800433226 /* WDCSplashViewController.m */; };
+		1BC4C407187F8CA900433226 /* WDCSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */; };
+		1BC4C416187F8CA900433226 /* fieldDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D4187F8CA900433226 /* fieldDefinition.json */; };
+		1BC4C417187F8CA900433226 /* formDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D5187F8CA900433226 /* formDefinition.json */; };
+		1BC4C418187F8CA900433226 /* lead01.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D6187F8CA900433226 /* lead01.json */; };
+		1BC4C419187F8CA900433226 /* leadsArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D7187F8CA900433226 /* leadsArray.json */; };
+		1BC4C41A187F8CA900433226 /* sectionDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D8187F8CA900433226 /* sectionDefinition.json */; };
+		1BC4C41B187F8CA900433226 /* WDCFixtureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */; };
+		1BC4C41C187F8CA900433226 /* LeadCapture Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DB187F8CA900433226 /* LeadCapture Tests-Info.plist */; };
+		1BC4C424187F8CA900433226 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E5187F8CA900433226 /* Default-568h@2x.png */; };
+		1BC4C425187F8CA900433226 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E6187F8CA900433226 /* Default-Landscape@2x~ipad.png */; };
+		1BC4C426187F8CA900433226 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E7187F8CA900433226 /* Default-Landscape~ipad.png */; };
+		1BC4C427187F8CA900433226 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E8187F8CA900433226 /* Default-Portrait@2x~ipad.png */; };
+		1BC4C428187F8CA900433226 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E9187F8CA900433226 /* Default-Portrait~ipad.png */; };
+		1BC4C429187F8CA900433226 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3EA187F8CA900433226 /* Default.png */; };
+		1BC4C42A187F8CA900433226 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3EB187F8CA900433226 /* Default@2x.png */; };
+		1BC4C42B187F8CA900433226 /* WDCLeadFormTableViewControllerDef.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3ED187F8CA900433226 /* WDCLeadFormTableViewControllerDef.plist */; };
+		1BC4C42C187F8CA900433226 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3EE187F8CA900433226 /* icon-72.png */; };
+		1BC4C42D187F8CA900433226 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3EF187F8CA900433226 /* icon-72@2x.png */; };
+		1BC4C42E187F8CA900433226 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F0187F8CA900433226 /* icon.png */; };
+		1BC4C42F187F8CA900433226 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F1187F8CA900433226 /* icon@2x.png */; };
+		1BC4C430187F8CA900433226 /* SalesforceSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F2187F8CA900433226 /* SalesforceSDKResources.bundle */; };
+		1BC4C431187F8CA900433226 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F3187F8CA900433226 /* Settings.bundle */; };
+		1BC4C432187F8CA900433226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F5187F8CA900433226 /* InfoPlist.strings */; };
+		1BC4C433187F8CA900433226 /* LeadCapture-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */; };
+		1BC4C434187F8CA900433226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F9187F8CA900433226 /* main.m */; };
+		1BC4C435187F8D0D00433226 /* LeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DD187F8CA900433226 /* LeadTests.m */; };
+		1BC4C436187F8D1000433226 /* WDCConfigDrivenTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DE187F8CA900433226 /* WDCConfigDrivenTableViewCellTests.m */; };
+		1BC4C437187F8D1500433226 /* WDCConfigDrivenTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DF187F8CA900433226 /* WDCConfigDrivenTableViewControllerTests.m */; };
+		1BC4C438187F8D1500433226 /* WDCFormDataProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E0187F8CA900433226 /* WDCFormDataProviderTests.m */; };
+		1BC4C439187F8D1500433226 /* WDCFormFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E1187F8CA900433226 /* WDCFormFieldTests.m */; };
+		1BC4C43A187F8D1500433226 /* WDCFormSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E2187F8CA900433226 /* WDCFormSectionTests.m */; };
+		1BC4C43B187F8D1500433226 /* WDCLeadFormTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E3187F8CA900433226 /* WDCLeadFormTableViewControllerTests.m */; };
+		1BC4C446187F8FCD00433226 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC4C43E187F8FCD00433226 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +92,74 @@
 		1BC4C2DB187F8BCF00433226 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1BC4C2E3187F8BCF00433226 /* DRYTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DRYTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		1BC4C2E5187F8BCF00433226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1BC4C2E7187F8BCF00433226 /* DRYTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRYTableViewTests.m; sourceTree = "<group>"; };
+		1BC4C2F4187F8CA800433226 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BC4C2F5187F8CA800433226 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BC4C2F7187F8CA800433226 /* DTVFormDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVFormDataProvider.h; sourceTree = "<group>"; };
+		1BC4C2F8187F8CA800433226 /* DTVFormDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVFormDataProvider.m; sourceTree = "<group>"; };
+		1BC4C2F9187F8CA800433226 /* DTVFormField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVFormField.h; sourceTree = "<group>"; };
+		1BC4C2FA187F8CA800433226 /* DTVFormField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVFormField.m; sourceTree = "<group>"; };
+		1BC4C2FB187F8CA800433226 /* DTVFormSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVFormSection.h; sourceTree = "<group>"; };
+		1BC4C2FC187F8CA800433226 /* DTVFormSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVFormSection.m; sourceTree = "<group>"; };
+		1BC4C2FD187F8CA800433226 /* DTVDomainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVDomainModel.h; sourceTree = "<group>"; };
+		1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVDomainModel.m; sourceTree = "<group>"; };
+		1BC4C300187F8CA800433226 /* DTVPersistentModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVPersistentModelProtocol.h; sourceTree = "<group>"; };
+		1BC4C302187F8CA800433226 /* WDCSalesForceDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCSalesForceDAO.h; sourceTree = "<group>"; };
+		1BC4C303187F8CA800433226 /* WDCSalesForceDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCSalesForceDAO.m; sourceTree = "<group>"; };
+		1BC4C305187F8CA800433226 /* DTVConfigDrivenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVConfigDrivenTableViewCell.h; sourceTree = "<group>"; };
+		1BC4C306187F8CA800433226 /* DTVConfigDrivenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVConfigDrivenTableViewCell.m; sourceTree = "<group>"; };
+		1BC4C307187F8CA800433226 /* DTVTextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVTextInputCell.h; sourceTree = "<group>"; };
+		1BC4C308187F8CA800433226 /* DTVTextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVTextInputCell.m; sourceTree = "<group>"; };
+		1BC4C30A187F8CA800433226 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "View Controllers/RootViewController.h"; sourceTree = "<group>"; };
+		1BC4C30B187F8CA800433226 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = "View Controllers/RootViewController.m"; sourceTree = "<group>"; };
+		1BC4C30C187F8CA800433226 /* DTVConfigDrivenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVConfigDrivenTableViewController.h; sourceTree = "<group>"; };
+		1BC4C30D187F8CA800433226 /* DTVConfigDrivenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVConfigDrivenTableViewController.m; sourceTree = "<group>"; };
+		1BC4C30E187F8CA800433226 /* WDCLeadFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDCLeadFormTableViewController.h; path = "View Controllers/WDCLeadFormTableViewController.h"; sourceTree = "<group>"; };
+		1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDCLeadFormTableViewController.m; path = "View Controllers/WDCLeadFormTableViewController.m"; sourceTree = "<group>"; };
+		1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WDCLeadFormTableViewController.xib; path = "View Controllers/WDCLeadFormTableViewController.xib"; sourceTree = "<group>"; };
+		1BC4C311187F8CA800433226 /* WDCSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDCSplashViewController.h; path = "View Controllers/WDCSplashViewController.h"; sourceTree = "<group>"; };
+		1BC4C312187F8CA800433226 /* WDCSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDCSplashViewController.m; path = "View Controllers/WDCSplashViewController.m"; sourceTree = "<group>"; };
+		1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WDCSplashViewController.xib; path = "View Controllers/WDCSplashViewController.xib"; sourceTree = "<group>"; };
+		1BC4C3D4187F8CA900433226 /* fieldDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fieldDefinition.json; sourceTree = "<group>"; };
+		1BC4C3D5187F8CA900433226 /* formDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = formDefinition.json; sourceTree = "<group>"; };
+		1BC4C3D6187F8CA900433226 /* lead01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lead01.json; sourceTree = "<group>"; };
+		1BC4C3D7187F8CA900433226 /* leadsArray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leadsArray.json; sourceTree = "<group>"; };
+		1BC4C3D8187F8CA900433226 /* sectionDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sectionDefinition.json; sourceTree = "<group>"; };
+		1BC4C3D9187F8CA900433226 /* WDCFixtureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCFixtureLoader.h; sourceTree = "<group>"; };
+		1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCFixtureLoader.m; sourceTree = "<group>"; };
+		1BC4C3DB187F8CA900433226 /* LeadCapture Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeadCapture Tests-Info.plist"; sourceTree = "<group>"; };
+		1BC4C3DC187F8CA900433226 /* LeadCapture Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeadCapture Tests-Prefix.pch"; sourceTree = "<group>"; };
+		1BC4C3DD187F8CA900433226 /* LeadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadTests.m; sourceTree = "<group>"; };
+		1BC4C3DE187F8CA900433226 /* WDCConfigDrivenTableViewCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCConfigDrivenTableViewCellTests.m; sourceTree = "<group>"; };
+		1BC4C3DF187F8CA900433226 /* WDCConfigDrivenTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCConfigDrivenTableViewControllerTests.m; sourceTree = "<group>"; };
+		1BC4C3E0187F8CA900433226 /* WDCFormDataProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCFormDataProviderTests.m; sourceTree = "<group>"; };
+		1BC4C3E1187F8CA900433226 /* WDCFormFieldTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCFormFieldTests.m; sourceTree = "<group>"; };
+		1BC4C3E2187F8CA900433226 /* WDCFormSectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCFormSectionTests.m; sourceTree = "<group>"; };
+		1BC4C3E3187F8CA900433226 /* WDCLeadFormTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCLeadFormTableViewControllerTests.m; sourceTree = "<group>"; };
+		1BC4C3E5187F8CA900433226 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1BC4C3E6187F8CA900433226 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		1BC4C3E7187F8CA900433226 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		1BC4C3E8187F8CA900433226 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		1BC4C3E9187F8CA900433226 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		1BC4C3EA187F8CA900433226 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1BC4C3EB187F8CA900433226 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1BC4C3ED187F8CA900433226 /* WDCLeadFormTableViewControllerDef.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WDCLeadFormTableViewControllerDef.plist; sourceTree = "<group>"; };
+		1BC4C3EE187F8CA900433226 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		1BC4C3EF187F8CA900433226 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		1BC4C3F0187F8CA900433226 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1BC4C3F1187F8CA900433226 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1BC4C3F2187F8CA900433226 /* SalesforceSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SalesforceSDKResources.bundle; sourceTree = "<group>"; };
+		1BC4C3F3187F8CA900433226 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		1BC4C3F6187F8CA900433226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeadCapture-Info.plist"; sourceTree = "<group>"; };
+		1BC4C3F8187F8CA900433226 /* LeadCapture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeadCapture-Prefix.pch"; sourceTree = "<group>"; };
+		1BC4C3F9187F8CA900433226 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC4C43E187F8FCD00433226 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		1BC4C440187F8FCD00433226 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		1BC4C441187F8FCD00433226 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		1BC4C442187F8FCD00433226 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		1BC4C443187F8FCD00433226 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		1BC4C444187F8FCD00433226 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		1BC4C445187F8FCD00433226 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC4C2DC187F8BCF00433226 /* XCTest.framework in Frameworks */,
+				1BC4C446187F8FCD00433226 /* libOCMock.a in Frameworks */,
 				1BC4C2DE187F8BCF00433226 /* UIKit.framework in Frameworks */,
 				1BC4C2DD187F8BCF00433226 /* Foundation.framework in Frameworks */,
 			);
@@ -77,8 +190,8 @@
 		1BC4C2B6187F8BCE00433226 = {
 			isa = PBXGroup;
 			children = (
+				1BC4C2F1187F8BD800433226 /* lib */,
 				1BC4C2C8187F8BCE00433226 /* DRYTableView */,
-				1BC4C2E1187F8BCF00433226 /* DRYTableViewTests */,
 				1BC4C2C1187F8BCE00433226 /* Frameworks */,
 				1BC4C2C0187F8BCE00433226 /* Products */,
 			);
@@ -107,6 +220,8 @@
 		1BC4C2C8187F8BCE00433226 /* DRYTableView */ = {
 			isa = PBXGroup;
 			children = (
+				1BC4C43C187F8E9700433226 /* View Controllers */,
+				1BC4C301187F8CA800433226 /* Services */,
 				1BC4C2D1187F8BCE00433226 /* DTVAppDelegate.h */,
 				1BC4C2D2187F8BCE00433226 /* DTVAppDelegate.m */,
 				1BC4C2D4187F8BCE00433226 /* Images.xcassets */,
@@ -126,15 +241,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1BC4C2E1187F8BCF00433226 /* DRYTableViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				1BC4C2E7187F8BCF00433226 /* DRYTableViewTests.m */,
-				1BC4C2E2187F8BCF00433226 /* Supporting Files */,
-			);
-			path = DRYTableViewTests;
-			sourceTree = "<group>";
-		};
 		1BC4C2E2187F8BCF00433226 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +248,206 @@
 				1BC4C2E4187F8BCF00433226 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = ../../../DRYTableViewTests;
+			sourceTree = "<group>";
+		};
+		1BC4C2F1187F8BD800433226 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C43D187F8FA500433226 /* OCMock */,
+				1BC4C2F2187F8BE000433226 /* dtv */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		1BC4C2F2187F8BE000433226 /* dtv */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C2F3187F8CA800433226 /* Classes */,
+				1BC4C3D0187F8CA900433226 /* DTV Tests */,
+				1BC4C3E4187F8CA900433226 /* Resources */,
+				1BC4C3F4187F8CA900433226 /* SupportingFiles */,
+			);
+			name = dtv;
+			sourceTree = "<group>";
+		};
+		1BC4C2F3187F8CA800433226 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C2F4187F8CA800433226 /* AppDelegate.h */,
+				1BC4C2F5187F8CA800433226 /* AppDelegate.m */,
+				1BC4C2F6187F8CA800433226 /* Models */,
+				1BC4C2FF187F8CA800433226 /* Protocols */,
+				1BC4C304187F8CA800433226 /* TableViewCells */,
+				1BC4C309187F8CA800433226 /* ViewControllers */,
+			);
+			name = Classes;
+			path = lib/dtv/Classes;
+			sourceTree = "<group>";
+		};
+		1BC4C2F6187F8CA800433226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C2F7187F8CA800433226 /* DTVFormDataProvider.h */,
+				1BC4C2F8187F8CA800433226 /* DTVFormDataProvider.m */,
+				1BC4C2F9187F8CA800433226 /* DTVFormField.h */,
+				1BC4C2FA187F8CA800433226 /* DTVFormField.m */,
+				1BC4C2FB187F8CA800433226 /* DTVFormSection.h */,
+				1BC4C2FC187F8CA800433226 /* DTVFormSection.m */,
+				1BC4C2FD187F8CA800433226 /* DTVDomainModel.h */,
+				1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BC4C2FF187F8CA800433226 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C300187F8CA800433226 /* DTVPersistentModelProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1BC4C301187F8CA800433226 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C302187F8CA800433226 /* WDCSalesForceDAO.h */,
+				1BC4C303187F8CA800433226 /* WDCSalesForceDAO.m */,
+			);
+			name = Services;
+			path = ../lib/dtv/Classes/Services;
+			sourceTree = "<group>";
+		};
+		1BC4C304187F8CA800433226 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C305187F8CA800433226 /* DTVConfigDrivenTableViewCell.h */,
+				1BC4C306187F8CA800433226 /* DTVConfigDrivenTableViewCell.m */,
+				1BC4C307187F8CA800433226 /* DTVTextInputCell.h */,
+				1BC4C308187F8CA800433226 /* DTVTextInputCell.m */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		1BC4C309187F8CA800433226 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C30C187F8CA800433226 /* DTVConfigDrivenTableViewController.h */,
+				1BC4C30D187F8CA800433226 /* DTVConfigDrivenTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BC4C3D0187F8CA900433226 /* DTV Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C2E2187F8BCF00433226 /* Supporting Files */,
+				1BC4C3D3187F8CA900433226 /* fixtures */,
+				1BC4C3DB187F8CA900433226 /* LeadCapture Tests-Info.plist */,
+				1BC4C3DC187F8CA900433226 /* LeadCapture Tests-Prefix.pch */,
+				1BC4C3DD187F8CA900433226 /* LeadTests.m */,
+				1BC4C3DE187F8CA900433226 /* WDCConfigDrivenTableViewCellTests.m */,
+				1BC4C3DF187F8CA900433226 /* WDCConfigDrivenTableViewControllerTests.m */,
+				1BC4C3E0187F8CA900433226 /* WDCFormDataProviderTests.m */,
+				1BC4C3E1187F8CA900433226 /* WDCFormFieldTests.m */,
+				1BC4C3E2187F8CA900433226 /* WDCFormSectionTests.m */,
+				1BC4C3E3187F8CA900433226 /* WDCLeadFormTableViewControllerTests.m */,
+			);
+			name = "DTV Tests";
+			path = "lib/dtv/DTV Tests";
+			sourceTree = "<group>";
+		};
+		1BC4C3D3187F8CA900433226 /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C3D4187F8CA900433226 /* fieldDefinition.json */,
+				1BC4C3D5187F8CA900433226 /* formDefinition.json */,
+				1BC4C3D6187F8CA900433226 /* lead01.json */,
+				1BC4C3D7187F8CA900433226 /* leadsArray.json */,
+				1BC4C3D8187F8CA900433226 /* sectionDefinition.json */,
+				1BC4C3D9187F8CA900433226 /* WDCFixtureLoader.h */,
+				1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		1BC4C3E4187F8CA900433226 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C3E5187F8CA900433226 /* Default-568h@2x.png */,
+				1BC4C3E6187F8CA900433226 /* Default-Landscape@2x~ipad.png */,
+				1BC4C3E7187F8CA900433226 /* Default-Landscape~ipad.png */,
+				1BC4C3E8187F8CA900433226 /* Default-Portrait@2x~ipad.png */,
+				1BC4C3E9187F8CA900433226 /* Default-Portrait~ipad.png */,
+				1BC4C3EA187F8CA900433226 /* Default.png */,
+				1BC4C3EB187F8CA900433226 /* Default@2x.png */,
+				1BC4C3EC187F8CA900433226 /* FormDefinitions */,
+				1BC4C3EE187F8CA900433226 /* icon-72.png */,
+				1BC4C3EF187F8CA900433226 /* icon-72@2x.png */,
+				1BC4C3F0187F8CA900433226 /* icon.png */,
+				1BC4C3F1187F8CA900433226 /* icon@2x.png */,
+				1BC4C3F2187F8CA900433226 /* SalesforceSDKResources.bundle */,
+				1BC4C3F3187F8CA900433226 /* Settings.bundle */,
+			);
+			name = Resources;
+			path = lib/dtv/Resources;
+			sourceTree = "<group>";
+		};
+		1BC4C3EC187F8CA900433226 /* FormDefinitions */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C3ED187F8CA900433226 /* WDCLeadFormTableViewControllerDef.plist */,
+			);
+			path = FormDefinitions;
+			sourceTree = "<group>";
+		};
+		1BC4C3F4187F8CA900433226 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C3F5187F8CA900433226 /* InfoPlist.strings */,
+				1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */,
+				1BC4C3F8187F8CA900433226 /* LeadCapture-Prefix.pch */,
+				1BC4C3F9187F8CA900433226 /* main.m */,
+			);
+			name = SupportingFiles;
+			path = lib/dtv/SupportingFiles;
+			sourceTree = "<group>";
+		};
+		1BC4C43C187F8E9700433226 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C30A187F8CA800433226 /* RootViewController.h */,
+				1BC4C30B187F8CA800433226 /* RootViewController.m */,
+				1BC4C30E187F8CA800433226 /* WDCLeadFormTableViewController.h */,
+				1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */,
+				1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */,
+				1BC4C311187F8CA800433226 /* WDCSplashViewController.h */,
+				1BC4C312187F8CA800433226 /* WDCSplashViewController.m */,
+				1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1BC4C43D187F8FA500433226 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C43E187F8FCD00433226 /* libOCMock.a */,
+				1BC4C43F187F8FCD00433226 /* OCMock */,
+			);
+			name = OCMock;
+			sourceTree = "<group>";
+		};
+		1BC4C43F187F8FCD00433226 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C440187F8FCD00433226 /* NSNotificationCenter+OCMAdditions.h */,
+				1BC4C441187F8FCD00433226 /* OCMArg.h */,
+				1BC4C442187F8FCD00433226 /* OCMConstraint.h */,
+				1BC4C443187F8FCD00433226 /* OCMock.h */,
+				1BC4C444187F8FCD00433226 /* OCMockObject.h */,
+				1BC4C445187F8FCD00433226 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +526,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC4C42E187F8CA900433226 /* icon.png in Resources */,
+				1BC4C426187F8CA900433226 /* Default-Landscape~ipad.png in Resources */,
+				1BC4C407187F8CA900433226 /* WDCSplashViewController.xib in Resources */,
+				1BC4C41C187F8CA900433226 /* LeadCapture Tests-Info.plist in Resources */,
+				1BC4C429187F8CA900433226 /* Default.png in Resources */,
+				1BC4C42C187F8CA900433226 /* icon-72.png in Resources */,
+				1BC4C425187F8CA900433226 /* Default-Landscape@2x~ipad.png in Resources */,
+				1BC4C433187F8CA900433226 /* LeadCapture-Info.plist in Resources */,
+				1BC4C42D187F8CA900433226 /* icon-72@2x.png in Resources */,
+				1BC4C41A187F8CA900433226 /* sectionDefinition.json in Resources */,
+				1BC4C431187F8CA900433226 /* Settings.bundle in Resources */,
+				1BC4C428187F8CA900433226 /* Default-Portrait~ipad.png in Resources */,
 				1BC4C2CD187F8BCE00433226 /* InfoPlist.strings in Resources */,
+				1BC4C427187F8CA900433226 /* Default-Portrait@2x~ipad.png in Resources */,
+				1BC4C418187F8CA900433226 /* lead01.json in Resources */,
+				1BC4C405187F8CA900433226 /* WDCLeadFormTableViewController.xib in Resources */,
+				1BC4C432187F8CA900433226 /* InfoPlist.strings in Resources */,
+				1BC4C416187F8CA900433226 /* fieldDefinition.json in Resources */,
+				1BC4C42A187F8CA900433226 /* Default@2x.png in Resources */,
+				1BC4C42B187F8CA900433226 /* WDCLeadFormTableViewControllerDef.plist in Resources */,
+				1BC4C419187F8CA900433226 /* leadsArray.json in Resources */,
+				1BC4C424187F8CA900433226 /* Default-568h@2x.png in Resources */,
 				1BC4C2D5187F8BCE00433226 /* Images.xcassets in Resources */,
+				1BC4C430187F8CA900433226 /* SalesforceSDKResources.bundle in Resources */,
+				1BC4C417187F8CA900433226 /* formDefinition.json in Resources */,
+				1BC4C42F187F8CA900433226 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +570,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC4C3FE187F8CA900433226 /* DTVDomainModel.m in Sources */,
+				1BC4C3FC187F8CA900433226 /* DTVFormField.m in Sources */,
+				1BC4C404187F8CA900433226 /* WDCLeadFormTableViewController.m in Sources */,
+				1BC4C401187F8CA900433226 /* DTVTextInputCell.m in Sources */,
 				1BC4C2CF187F8BCE00433226 /* main.m in Sources */,
+				1BC4C41B187F8CA900433226 /* WDCFixtureLoader.m in Sources */,
+				1BC4C3FD187F8CA900433226 /* DTVFormSection.m in Sources */,
+				1BC4C434187F8CA900433226 /* main.m in Sources */,
 				1BC4C2D3187F8BCE00433226 /* DTVAppDelegate.m in Sources */,
+				1BC4C403187F8CA900433226 /* DTVConfigDrivenTableViewController.m in Sources */,
+				1BC4C3FA187F8CA900433226 /* AppDelegate.m in Sources */,
+				1BC4C402187F8CA900433226 /* RootViewController.m in Sources */,
+				1BC4C406187F8CA900433226 /* WDCSplashViewController.m in Sources */,
+				1BC4C3FF187F8CA900433226 /* WDCSalesForceDAO.m in Sources */,
+				1BC4C3FB187F8CA900433226 /* DTVFormDataProvider.m in Sources */,
+				1BC4C400187F8CA900433226 /* DTVConfigDrivenTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +593,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC4C2E8187F8BCF00433226 /* DRYTableViewTests.m in Sources */,
+				1BC4C436187F8D1000433226 /* WDCConfigDrivenTableViewCellTests.m in Sources */,
+				1BC4C43B187F8D1500433226 /* WDCLeadFormTableViewControllerTests.m in Sources */,
+				1BC4C437187F8D1500433226 /* WDCConfigDrivenTableViewControllerTests.m in Sources */,
+				1BC4C435187F8D0D00433226 /* LeadTests.m in Sources */,
+				1BC4C438187F8D1500433226 /* WDCFormDataProviderTests.m in Sources */,
+				1BC4C43A187F8D1500433226 /* WDCFormSectionTests.m in Sources */,
+				1BC4C439187F8D1500433226 /* WDCFormFieldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +626,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1BC4C2E5187F8BCF00433226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BC4C3F5187F8CA900433226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC4C3F6187F8CA900433226 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -363,6 +721,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRYTableView/DRYTableView-Prefix.pch";
 				INFOPLIST_FILE = "DRYTableView/DRYTableView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/MKNetworkKit-iOS",
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/openssl,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceCommonUtils,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceNativeSDK,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceNetworkSDK,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceOAuth,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceSDKCore,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/sqlcipher,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +745,17 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRYTableView/DRYTableView-Prefix.pch";
 				INFOPLIST_FILE = "DRYTableView/DRYTableView-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/MKNetworkKit-iOS",
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/openssl,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceCommonUtils,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceNativeSDK,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceNetworkSDK,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceOAuth,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/SalesforceSDKCore,
+					/Users/lightmedium/Sites/DRYTableView/lib/dtv/Dependencies/sqlcipher,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +778,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DRYTableViewTests/DRYTableViewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lightmedium/Sites/DRYTableView,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -417,6 +801,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRYTableView/DRYTableView-Prefix.pch";
 				INFOPLIST_FILE = "DRYTableViewTests/DRYTableViewTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lightmedium/Sites/DRYTableView,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

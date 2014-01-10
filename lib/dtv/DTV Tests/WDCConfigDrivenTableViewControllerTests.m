@@ -1,13 +1,13 @@
 //
-//  WDCConfigDrivenTableViewControllerTests.m
-//  LeadCapture
+//  DTVConfigDrivenTableViewControllerTests.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/6/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "WDCFixtureLoader.h"
+#import "DTVFixtureLoader.h"
 #import "DTVConfigDrivenTableViewController.h"
 #import "DTVFormDataProvider.h"
 #import "DTVFormSection.h"
@@ -19,17 +19,17 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
-@interface WDCConfigDrivenTableViewControllerTests : XCTestCase
+@interface DTVConfigDrivenTableViewControllerTests : XCTestCase
 @property (nonatomic, strong) DTVFormDataProvider *dataProvider;
 @property (nonatomic, strong) DTVConfigDrivenTableViewController *controller;
 @end
 
-@implementation WDCConfigDrivenTableViewControllerTests
+@implementation DTVConfigDrivenTableViewControllerTests
 
 - (void)setUp
 {
     [super setUp];
-    NSDictionary *formDefinition = [WDCFixtureLoader loadFixtureNamed:@"formDefinition"];
+    NSDictionary *formDefinition = [DTVFixtureLoader loadFixtureNamed:@"formDefinition"];
     [self setDataProvider:[DTVFormDataProvider initWithFormDefinition:formDefinition]];
     [self setController:[[DTVConfigDrivenTableViewController alloc] init]];
     [[self controller] setDataProvider:[self dataProvider]];

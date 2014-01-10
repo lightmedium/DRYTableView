@@ -1,6 +1,6 @@
 //
-//  WDCTextInputCell.m
-//  LeadCapture
+//  DTVTextInputCell.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DTVTextInputCell.h"
 #import "DTVFormField.h"
-#import "DTVPersistentModelProtocol.h"
+#import "DTVDomainModel.h"
 
 @implementation DTVTextInputCell
 
@@ -39,7 +39,7 @@
     return self;
 }
 
-// required by subclasses of WDCConfigDrivenTableViewCell, concrete implementations
+// required by subclasses of DTVConfigDrivenTableViewCell, concrete implementations
 // know best how data should be extracted from the UI.
 - (id)valueForBoundProperty;
 {

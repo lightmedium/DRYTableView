@@ -1,6 +1,6 @@
 //
-//  WDCFormField.m
-//  LeadCapture
+//  DTVFormField.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -51,7 +51,7 @@
     return field;
 }
 
-// We're caching the WDCConfigDrivenTableViewCell used to present this form field
+// We're caching the DTVConfigDrivenTableViewCell used to present this form field
 - (DTVConfigDrivenTableViewCell *)tableViewCell;
 {
     if (_tableViewCell != nil)
@@ -63,7 +63,7 @@
     NSMutableString *CellIdentifier = [[self type] mutableCopy];
     
     // construct cell class name from the field definition's type property
-    NSString *cellClassName = [NSString stringWithFormat:@"WDC%@Cell", [CellIdentifier capitalize]];
+    NSString *cellClassName = [NSString stringWithFormat:@"DTV%@Cell", [CellIdentifier capitalize]];
     
     // get somethign we can instantiate
     Class CellClass = NSClassFromString(cellClassName);

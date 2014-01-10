@@ -1,16 +1,16 @@
 //
-//  WDCConfigDrivenTableViewController.h
-//  LeadCapture
+//  DTVConfigDrivenTableViewController.h
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "DTVPersistentModelProtocol.h"
+#import "DTVDomainModel.h"
 @class DTVFormDataProvider;
 
-//@interface WDCConfigDrivenTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+//@interface DTVConfigDrivenTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @interface DTVConfigDrivenTableViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 // Designated initializer, takes an optional model object.

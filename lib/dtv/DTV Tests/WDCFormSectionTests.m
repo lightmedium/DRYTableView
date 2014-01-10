@@ -1,24 +1,24 @@
 //
-//  WDCFormSectionTests.m
-//  LeadCapture
+//  DTVFormSectionTests.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/6/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "WDCFixtureLoader.h"
+#import "DTVFixtureLoader.h"
 #import "DTVFormSection.h"
 
-@interface WDCFormSectionTests : XCTestCase @end
+@interface DTVFormSectionTests : XCTestCase @end
 
-@implementation WDCFormSectionTests
+@implementation DTVFormSectionTests
 
 // + (id)initWithSectionDefinition:(NSDictionary *)sectionDef;
 - (void)testInitWithSectionDefinition_createsTheExpectedNumberOfFields
 {
     // setup
-    NSDictionary *sectionDefinition = [WDCFixtureLoader loadFixtureNamed:@"sectionDefinition"];
+    NSDictionary *sectionDefinition = [DTVFixtureLoader loadFixtureNamed:@"sectionDefinition"];
     int expectedFieldCount = 2;
     
     // execution

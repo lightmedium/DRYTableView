@@ -1,6 +1,6 @@
 //
-//  WDCFormDataProviderTests.m
-//  LeadCapture
+//  DTVFormDataProviderTests.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/6/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -8,20 +8,20 @@
 
 #import <XCTest/XCTest.h>
 #import "DTVFormDataProvider.h"
-#import "WDCFixtureLoader.h"
+#import "DTVFixtureLoader.h"
 #import "DTVFormSection.h"
 #import "DTVFormField.h"
 
-@interface WDCFormDataProviderTests : XCTestCase
+@interface DTVFormDataProviderTests : XCTestCase
 @property (nonatomic, strong) DTVFormDataProvider *dataProvider;
 @end
 
-@implementation WDCFormDataProviderTests
+@implementation DTVFormDataProviderTests
 
 - (void)setUp
 {
     [super setUp];
-    NSDictionary *formDefinition = [WDCFixtureLoader loadFixtureNamed:@"formDefinition"];
+    NSDictionary *formDefinition = [DTVFixtureLoader loadFixtureNamed:@"formDefinition"];
     [self setDataProvider:[DTVFormDataProvider initWithFormDefinition:formDefinition]];
 }
 
@@ -35,7 +35,7 @@
 - (void)testInitWithFormDefinition_serializesSections
 {
     // setup
-    NSDictionary *formDefinition = [WDCFixtureLoader loadFixtureNamed:@"formDefinition"];
+    NSDictionary *formDefinition = [DTVFixtureLoader loadFixtureNamed:@"formDefinition"];
     int expectedSectionCount = 3;
     
     // execution
@@ -46,7 +46,7 @@
     XCTAssertEqual(expectedSectionCount, actualSectionCount, @"We didn't get all of the sections that we expected from the fixture.");
 }
 
-// - (WDCFormSection *)sectionModelForIndexPath:(NSIndexPath *)indexPath
+// - (DTVFormSection *)sectionModelForIndexPath:(NSIndexPath *)indexPath
 - (void)testSectionModelForIndexPath_loadsCorrectSectionModel
 {
     // setup
@@ -60,12 +60,12 @@
     DTVFormSection *actualSection2 = [[self dataProvider] sectionModelForIndexPath:[NSIndexPath indexPathForRow:999 inSection:2]];
     
     // assertion
-    XCTAssertEqualObjects(expectedSection0, actualSection0, @"The WDCFormSection instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedSection1, actualSection1, @"The WDCFormSection instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedSection2, actualSection2, @"The WDCFormSection instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedSection0, actualSection0, @"The DTVFormSection instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedSection1, actualSection1, @"The DTVFormSection instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedSection2, actualSection2, @"The DTVFormSection instance returned by the table view was not what we have in the data provider");
 }
 
-// - (WDCFormField *)fieldModelForIndexPath:(NSIndexPath *)indexPath
+// - (DTVFormField *)fieldModelForIndexPath:(NSIndexPath *)indexPath
 - (void)testFieldModelForIndexPath_loadsCorrectFieldModel
 {
     // setup
@@ -92,12 +92,12 @@
     DTVFormField *actualField2_3 = [[self dataProvider] fieldModelForIndexPath:[NSIndexPath indexPathForRow:3 inSection:2]];
     
     // assertion
-    XCTAssertEqualObjects(expectedField0_0, actualField0_0, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedField0_1, actualField0_1, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedField1_0, actualField1_0, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedField1_2, actualField1_2, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedField2_0, actualField2_0, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
-    XCTAssertEqualObjects(expectedField2_3, actualField2_3, @"The WDCFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField0_0, actualField0_0, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField0_1, actualField0_1, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField1_0, actualField1_0, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField1_2, actualField1_2, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField2_0, actualField2_0, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
+    XCTAssertEqualObjects(expectedField2_3, actualField2_3, @"The DTVFormField instance returned by the table view was not what we have in the data provider");
 }
 
 @end

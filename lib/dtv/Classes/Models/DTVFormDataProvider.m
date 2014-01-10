@@ -1,6 +1,6 @@
 //
-//  WDCFormDataProvider.m
-//  LeadCapture
+//  DTVFormDataProvider.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -13,7 +13,7 @@
 @implementation DTVFormDataProvider
 
 // crawl over the form definition dictionary and serialize data into
-// a WDCFormDataProvider and its models
+// a DTVFormDataProvider and its models
 + (DTVFormDataProvider *)initWithFormDefinition:(NSDictionary *)formDef;
 {
     DTVFormDataProvider *dp = [[DTVFormDataProvider alloc] init];

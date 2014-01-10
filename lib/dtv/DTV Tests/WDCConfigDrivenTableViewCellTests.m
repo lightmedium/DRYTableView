@@ -1,6 +1,6 @@
 //
-//  WDCConfigDrivenTableViewCellTests.m
-//  LeadCapture
+//  DTVConfigDrivenTableViewCellTests.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/6/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "OCMock.h"
-#import "WDCFixtureLoader.h"
+#import "DTVFixtureLoader.h"
 #import "DTVConfigDrivenTableViewCell.h"
 #import "DTVDomainModel.h"
 #import "DTVFormField.h"
@@ -17,11 +17,11 @@
 - (void)validateInput;
 @end
 
-@interface WDCConfigDrivenTableViewCellTests : XCTestCase
+@interface DTVConfigDrivenTableViewCellTests : XCTestCase
 
 @end
 
-@implementation WDCConfigDrivenTableViewCellTests
+@implementation DTVConfigDrivenTableViewCellTests
 
 - (void)setUp
 {
@@ -45,9 +45,9 @@
     NSString *expectedFirstName = @"Mary";
     
     // load fixtures for the lead and the field definition
-    NSDictionary *leadDefinition = [WDCFixtureLoader loadFixtureNamed:@"lead01"];
+    NSDictionary *leadDefinition = [DTVFixtureLoader loadFixtureNamed:@"lead01"];
     XCTAssertNotNil(leadDefinition, @"Something went wrong loading our lead fixture.");
-    NSDictionary *fieldDefinition = [WDCFixtureLoader loadFixtureNamed:@"fieldDefinition"];
+    NSDictionary *fieldDefinition = [DTVFixtureLoader loadFixtureNamed:@"fieldDefinition"];
     XCTAssertNotNil(fieldDefinition, @"Something went wrong loading our field definition fixture.");
     
     // instantiate the objects we need using the fixtures

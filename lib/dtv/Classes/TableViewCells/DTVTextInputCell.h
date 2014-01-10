@@ -1,11 +1,11 @@
 //
-//  WDCTextInputCell.h
-//  LeadCapture
+//  DTVTextInputCell.h
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
 //
-//  WDCTextInputCell is a concrete implementation of WDCConfgiDrivenTableViewCell,
+//  DTVTextInputCell is a concrete implementation of DTVConfgiDrivenTableViewCell,
 //  used for displaying a text input in a form.
 
 #import <UIKit/UIKit.h>

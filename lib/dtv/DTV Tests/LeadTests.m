@@ -1,6 +1,6 @@
 //
 //  LeadTests.m
-//  LeadCapture
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -11,7 +11,7 @@
 
 #import "OCMock.h"
 #import "DTVDomainModel.h"
-#import "WDCFixtureLoader.h"
+#import "DTVFixtureLoader.h"
 
 @interface LeadTests : XCTestCase @end
 
@@ -21,7 +21,7 @@
 - (void)testInitWithArray_returnsExpectedArray
 {
     // setup
-    NSDictionary *fixture = [WDCFixtureLoader loadFixtureNamed:@"leadsArray"];
+    NSDictionary *fixture = [DTVFixtureLoader loadFixtureNamed:@"leadsArray"];
     NSArray *leadsArray = [fixture objectForKey:@"leads"];
     
     // execution
@@ -34,15 +34,15 @@
         NSDictionary *rawLead = [leadsArray objectAtIndex:idx];
         NSString *rawLeadFirstName = [rawLead objectForKey:@"FirstName"];
         DTVDomainModel *lead = (DTVDomainModel *)obj;
-        XCTAssertTrue([rawLeadFirstName isEqualToString:[lead firstName]], @"The leads do not have the same first name. dict::WDCLead %@::%@", rawLeadFirstName, [lead firstName]);
+        XCTAssertTrue([rawLeadFirstName isEqualToString:[lead firstName]], @"The leads do not have the same first name. dict::DTVDomainModel %@::%@", rawLeadFirstName, [lead firstName]);
     }];
 }
 
-// + (WDCLead *)initWithDictionary:(NSDictionary *)rawLead;
-- (void)testInitWithDictionary_returnsExpectedWDCLeadInstance
+// + (DTVDomainModel *)initWithDictionary:(NSDictionary *)rawLead;
+- (void)testInitWithDictionary_returnsExpectedDTVDomainModelInstance
 {
     // setup
-    NSDictionary *fixture = [WDCFixtureLoader loadFixtureNamed:@"lead01"];
+    NSDictionary *fixture = [DTVFixtureLoader loadFixtureNamed:@"lead01"];
     NSString *expectedFName = [fixture objectForKey:@"FirstName"];
     NSString *expectedLName = [fixture objectForKey:@"LastName"];
     NSString *expectedTitle = [fixture objectForKey:@"Title"];
@@ -55,7 +55,7 @@
     
     // assertion
     XCTAssertNotNil(fixture, @"We should have fixture to work with");
-    XCTAssertNotNil(lead, @"We should have received a lead from WDCLead initWithDictionary:");
+    XCTAssertNotNil(lead, @"We should have received a lead from DTVDomainModel initWithDictionary:");
     
     NSString *actualFName = [lead firstName];
     NSString *actualLName = [lead lastName];
@@ -63,12 +63,12 @@
     NSString *actualCompany = [lead company];
     NSString *actualPhone = [lead phone];
     NSString *actualEmail = [lead email];
-    XCTAssertTrue([actualFName isEqualToString:expectedFName], @"The First Names did not match between the fixture and the WDCLead instance");
-    XCTAssertTrue([actualLName isEqualToString:expectedLName], @"The Last Names did not match between the fixture and the WDCLead instance");
-    XCTAssertTrue([actualTitle isEqualToString:expectedTitle], @"The Title did not match between the fixture and the WDCLead instance");
-    XCTAssertTrue([actualCompany isEqualToString:expectedCompany], @"The Company did not match between the fixture and the WDCLead instance");
-    XCTAssertTrue([actualPhone isEqualToString:expectedPhone], @"The Phone did not match between the fixture and the WDCLead instance");
-    XCTAssertTrue([actualEmail isEqualToString:expectedEmail], @"The Email did not match between the fixture and the WDCLead instance");
+    XCTAssertTrue([actualFName isEqualToString:expectedFName], @"The First Names did not match between the fixture and the DTVDomainModel instance");
+    XCTAssertTrue([actualLName isEqualToString:expectedLName], @"The Last Names did not match between the fixture and the DTVDomainModel instance");
+    XCTAssertTrue([actualTitle isEqualToString:expectedTitle], @"The Title did not match between the fixture and the DTVDomainModel instance");
+    XCTAssertTrue([actualCompany isEqualToString:expectedCompany], @"The Company did not match between the fixture and the DTVDomainModel instance");
+    XCTAssertTrue([actualPhone isEqualToString:expectedPhone], @"The Phone did not match between the fixture and the DTVDomainModel instance");
+    XCTAssertTrue([actualEmail isEqualToString:expectedEmail], @"The Email did not match between the fixture and the DTVDomainModel instance");
     
 }
 
@@ -76,7 +76,7 @@
 - (void)testTitleAndCompany_concatenatesTitleAndCompany
 {
     // setup
-    NSDictionary *fixture = [WDCFixtureLoader loadFixtureNamed:@"lead01"];
+    NSDictionary *fixture = [DTVFixtureLoader loadFixtureNamed:@"lead01"];
     DTVDomainModel *lead = [DTVDomainModel initWithDictionary:fixture];
     NSString *expectedTitleAndCompany = @"El Presidente, Smith Brothers Hardware";
     

@@ -1,6 +1,6 @@
 //
-//  WDCLeadFormTableViewControllerTests.m
-//  LeadCapture
+//  DTVDomainModelFormTableViewControllerTests.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "WDCLeadFormTableViewController.h"
+#import "DTVDomainModelFormTableViewController.h"
 
-@interface WDCLeadFormTableViewController (tests)
+@interface DTVDomainModelFormTableViewController (tests)
 - (NSMutableDictionary *)loadFormDefinition;
 @end
 
 
-@interface WDCLeadFormTableViewControllerTests : XCTestCase
+@interface DTVDomainModelFormTableViewControllerTests : XCTestCase
 
 @end
 
-@implementation WDCLeadFormTableViewControllerTests
+@implementation DTVDomainModelFormTableViewControllerTests
 
 - (void)setUp
 {
@@ -35,8 +35,8 @@
 
 - (void)testLoadFormDefinition_returnsAMutableDict
 {
-//    WDCLeadFormTableViewController *vc = [WDCLeadFormTableViewController initWithStyle:UITableViewStylePlain];
-    WDCLeadFormTableViewController *vc = [[WDCLeadFormTableViewController alloc] init];
+//    DTVDomainModelFormTableViewController *vc = [DTVDomainModelFormTableViewController initWithStyle:UITableViewStylePlain];
+    DTVDomainModelFormTableViewController *vc = [[DTVDomainModelFormTableViewController alloc] init];
     NSMutableDictionary *definition = [vc loadFormDefinition];
     XCTAssertNotNil(definition, @"The form definition failed to load.");
 }

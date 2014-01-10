@@ -1,6 +1,6 @@
 //
-//  WDCLead.m
-//  LeadCapture
+//  DTVDomainModel.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -49,14 +49,14 @@ NSString *const kValidationErrorDomain = @"ValidationErrorDomain";
 // record is new.
 - (BOOL)isNew;
 {
-    
+    return YES;
 }
 
 // encapsulate the logic for determining whether or not the
 // record can be edited.
 - (BOOL)isMutable;
 {
-    
+    return YES;
 }
 
 @end

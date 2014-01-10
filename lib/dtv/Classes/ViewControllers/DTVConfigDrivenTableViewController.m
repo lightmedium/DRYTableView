@@ -1,6 +1,6 @@
 //
-//  WDCConfigDrivenTableViewController.m
-//  LeadCapture
+//  DTVConfigDrivenTableViewController.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -12,7 +12,6 @@
 #import "NSMutableString+Utilities.h"
 #import "DTVFormSection.h"
 #import "DTVFormField.h"
-#import "MBProgressHUD.h"
 
 @interface DTVConfigDrivenTableViewController ()
 @property (nonatomic, strong) UIView *spinnerContainer;
@@ -58,17 +57,7 @@
         [self setSpinnerContainer:[[UIView alloc] initWithFrame:[[self tableView] frame]]];
         [[self view] addSubview:[self spinnerContainer]];
         
-        // TODO: this shouldn't be in the abstract view controller unless it's configurable
-        // TODO: wrap this so the configutation is reusable
-        // show the progress indicator
-        MBProgressHUD *spinner = [MBProgressHUD showHUDAddedTo:[self spinnerContainer] animated:YES];
-        [spinner setColor:[UIColor colorWithRed:0.1f green:0.1f blue:0.1f alpha:0.92f]];
-        [spinner setCornerRadius:0.0f];
-        [spinner setLabelText:@"Loading Leads"];
-        [spinner dimBackground];
-        [spinner setYOffset:-20.0f];
-        [spinner setMargin:8.0f];
-        [spinner show:YES];
+        // TODO: protocol method to tell view controller to show spinner?
         
         // if valid, save the record
         __weak DTVConfigDrivenTableViewController *weakSelf = self;
@@ -83,8 +72,7 @@
             
             // UI stuff goes to the main thread
             dispatch_async(dispatch_get_main_queue(), ^{
-                // hide the progress indicator
-                [MBProgressHUD hideAllHUDsForView:[self spinnerContainer] animated:YES];
+                // TODO: protocol method to tell view controller to hide spinner?
                 [[weakSelf spinnerContainer] removeFromSuperview];
                 
                 // when save is done, go back
@@ -123,7 +111,7 @@
     // grab the field model
     DTVFormField *field = [[self dataProvider] fieldModelForIndexPath:indexPath];
     
-    // set a reference to the domain model (the WDCLead instance) on the field model
+    // set a reference to the domain model (the DTVDomainModel instance) on the field model
     [field setModel:[self model]];
     
     // everything we need to know about instantiating the cell is encapsulated in the field model.

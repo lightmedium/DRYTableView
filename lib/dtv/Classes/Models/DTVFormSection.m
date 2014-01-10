@@ -1,6 +1,6 @@
 //
-//  WDCFormSection.m
-//  LeadCapture
+//  DTVFormSection.m
+//  DTVTableView
 //
 //  Created by C. Michael Close on 1/5/14.
 //  Copyright (c) 2014 LightMedium. All rights reserved.
@@ -11,7 +11,7 @@
 
 @implementation DTVFormSection
 
-// traverse fields in the section, initializing WDCFormField models
+// traverse fields in the section, initializing DTVFormField models
 + (DTVFormSection *)initWithSectionDefinition:(NSDictionary *)sectionDef;
 {
     DTVFormSection *section = [[DTVFormSection alloc] init];

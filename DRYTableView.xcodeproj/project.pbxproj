@@ -23,21 +23,15 @@
 		1BC4C3FC187F8CA900433226 /* DTVFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FA187F8CA800433226 /* DTVFormField.m */; };
 		1BC4C3FD187F8CA900433226 /* DTVFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FC187F8CA800433226 /* DTVFormSection.m */; };
 		1BC4C3FE187F8CA900433226 /* DTVDomainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */; };
-		1BC4C3FF187F8CA900433226 /* WDCSalesForceDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C303187F8CA800433226 /* WDCSalesForceDAO.m */; };
 		1BC4C400187F8CA900433226 /* DTVConfigDrivenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C306187F8CA800433226 /* DTVConfigDrivenTableViewCell.m */; };
 		1BC4C401187F8CA900433226 /* DTVTextInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C308187F8CA800433226 /* DTVTextInputCell.m */; };
-		1BC4C402187F8CA900433226 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30B187F8CA800433226 /* RootViewController.m */; };
 		1BC4C403187F8CA900433226 /* DTVConfigDrivenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30D187F8CA800433226 /* DTVConfigDrivenTableViewController.m */; };
-		1BC4C404187F8CA900433226 /* WDCLeadFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */; };
-		1BC4C405187F8CA900433226 /* WDCLeadFormTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */; };
-		1BC4C406187F8CA900433226 /* WDCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C312187F8CA800433226 /* WDCSplashViewController.m */; };
-		1BC4C407187F8CA900433226 /* WDCSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */; };
 		1BC4C416187F8CA900433226 /* fieldDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D4187F8CA900433226 /* fieldDefinition.json */; };
 		1BC4C417187F8CA900433226 /* formDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D5187F8CA900433226 /* formDefinition.json */; };
 		1BC4C418187F8CA900433226 /* lead01.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D6187F8CA900433226 /* lead01.json */; };
 		1BC4C419187F8CA900433226 /* leadsArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D7187F8CA900433226 /* leadsArray.json */; };
 		1BC4C41A187F8CA900433226 /* sectionDefinition.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3D8187F8CA900433226 /* sectionDefinition.json */; };
-		1BC4C41B187F8CA900433226 /* WDCFixtureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */; };
+		1BC4C41B187F8CA900433226 /* DTVFixtureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DA187F8CA900433226 /* DTVFixtureLoader.m */; };
 		1BC4C41C187F8CA900433226 /* LeadCapture Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DB187F8CA900433226 /* LeadCapture Tests-Info.plist */; };
 		1BC4C424187F8CA900433226 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E5187F8CA900433226 /* Default-568h@2x.png */; };
 		1BC4C425187F8CA900433226 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E6187F8CA900433226 /* Default-Landscape@2x~ipad.png */; };
@@ -51,11 +45,9 @@
 		1BC4C42D187F8CA900433226 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3EF187F8CA900433226 /* icon-72@2x.png */; };
 		1BC4C42E187F8CA900433226 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F0187F8CA900433226 /* icon.png */; };
 		1BC4C42F187F8CA900433226 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F1187F8CA900433226 /* icon@2x.png */; };
-		1BC4C430187F8CA900433226 /* SalesforceSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F2187F8CA900433226 /* SalesforceSDKResources.bundle */; };
 		1BC4C431187F8CA900433226 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F3187F8CA900433226 /* Settings.bundle */; };
 		1BC4C432187F8CA900433226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F5187F8CA900433226 /* InfoPlist.strings */; };
 		1BC4C433187F8CA900433226 /* LeadCapture-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */; };
-		1BC4C434187F8CA900433226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3F9187F8CA900433226 /* main.m */; };
 		1BC4C435187F8D0D00433226 /* LeadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DD187F8CA900433226 /* LeadTests.m */; };
 		1BC4C436187F8D1000433226 /* WDCConfigDrivenTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DE187F8CA900433226 /* WDCConfigDrivenTableViewCellTests.m */; };
 		1BC4C437187F8D1500433226 /* WDCConfigDrivenTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3DF187F8CA900433226 /* WDCConfigDrivenTableViewControllerTests.m */; };
@@ -64,6 +56,16 @@
 		1BC4C43A187F8D1500433226 /* WDCFormSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E2187F8CA900433226 /* WDCFormSectionTests.m */; };
 		1BC4C43B187F8D1500433226 /* WDCLeadFormTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C3E3187F8CA900433226 /* WDCLeadFormTableViewControllerTests.m */; };
 		1BC4C446187F8FCD00433226 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC4C43E187F8FCD00433226 /* libOCMock.a */; };
+		1BC4C4A1187FA1AA00433226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C48E187FA1AA00433226 /* InfoPlist.strings */; };
+		1BC4C4A2187FA1AA00433226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C490187FA1AA00433226 /* Images.xcassets */; };
+		1BC4C4A3187FA1AA00433226 /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C492187FA1AA00433226 /* LMAppDelegate.m */; };
+		1BC4C4A4187FA1AA00433226 /* LMObjCUtils-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C493187FA1AA00433226 /* LMObjCUtils-Info.plist */; };
+		1BC4C4A5187FA1AA00433226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C495187FA1AA00433226 /* main.m */; };
+		1BC4C4A6187FA1AA00433226 /* NSMutableString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C497187FA1AA00433226 /* NSMutableString+Utilities.m */; };
+		1BC4C4A7187FA1AA00433226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C49C187FA1AA00433226 /* InfoPlist.strings */; };
+		1BC4C4A8187FA1AA00433226 /* LMObjCUtilsTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C49E187FA1AA00433226 /* LMObjCUtilsTests-Info.plist */; };
+		1BC4C4A9187FA1AA00433226 /* NSMutableString_UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4C49F187FA1AA00433226 /* NSMutableString_UtilitiesTests.m */; };
+		1BC4C4AA187FA1AA00433226 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4C4A0187FA1AA00433226 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1BC4C2BE187F8BCE00433226;
 			remoteInfo = DRYTableView;
+		};
+		1BC4C4AD187FA1AA00433226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC4C498187FA1AA00433226 /* LMObjCUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BC4C455187F9A8200433226;
+			remoteInfo = LMObjCUtils;
+		};
+		1BC4C4AF187FA1AA00433226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC4C498187FA1AA00433226 /* LMObjCUtils.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BC4C470187F9A8200433226;
+			remoteInfo = LMObjCUtilsTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,30 +118,21 @@
 		1BC4C2FC187F8CA800433226 /* DTVFormSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVFormSection.m; sourceTree = "<group>"; };
 		1BC4C2FD187F8CA800433226 /* DTVDomainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVDomainModel.h; sourceTree = "<group>"; };
 		1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVDomainModel.m; sourceTree = "<group>"; };
-		1BC4C300187F8CA800433226 /* DTVPersistentModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVPersistentModelProtocol.h; sourceTree = "<group>"; };
 		1BC4C302187F8CA800433226 /* WDCSalesForceDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCSalesForceDAO.h; sourceTree = "<group>"; };
 		1BC4C303187F8CA800433226 /* WDCSalesForceDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCSalesForceDAO.m; sourceTree = "<group>"; };
 		1BC4C305187F8CA800433226 /* DTVConfigDrivenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVConfigDrivenTableViewCell.h; sourceTree = "<group>"; };
 		1BC4C306187F8CA800433226 /* DTVConfigDrivenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVConfigDrivenTableViewCell.m; sourceTree = "<group>"; };
 		1BC4C307187F8CA800433226 /* DTVTextInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVTextInputCell.h; sourceTree = "<group>"; };
 		1BC4C308187F8CA800433226 /* DTVTextInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVTextInputCell.m; sourceTree = "<group>"; };
-		1BC4C30A187F8CA800433226 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "View Controllers/RootViewController.h"; sourceTree = "<group>"; };
-		1BC4C30B187F8CA800433226 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = "View Controllers/RootViewController.m"; sourceTree = "<group>"; };
 		1BC4C30C187F8CA800433226 /* DTVConfigDrivenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVConfigDrivenTableViewController.h; sourceTree = "<group>"; };
 		1BC4C30D187F8CA800433226 /* DTVConfigDrivenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVConfigDrivenTableViewController.m; sourceTree = "<group>"; };
-		1BC4C30E187F8CA800433226 /* WDCLeadFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDCLeadFormTableViewController.h; path = "View Controllers/WDCLeadFormTableViewController.h"; sourceTree = "<group>"; };
-		1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDCLeadFormTableViewController.m; path = "View Controllers/WDCLeadFormTableViewController.m"; sourceTree = "<group>"; };
-		1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WDCLeadFormTableViewController.xib; path = "View Controllers/WDCLeadFormTableViewController.xib"; sourceTree = "<group>"; };
-		1BC4C311187F8CA800433226 /* WDCSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WDCSplashViewController.h; path = "View Controllers/WDCSplashViewController.h"; sourceTree = "<group>"; };
-		1BC4C312187F8CA800433226 /* WDCSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WDCSplashViewController.m; path = "View Controllers/WDCSplashViewController.m"; sourceTree = "<group>"; };
-		1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WDCSplashViewController.xib; path = "View Controllers/WDCSplashViewController.xib"; sourceTree = "<group>"; };
 		1BC4C3D4187F8CA900433226 /* fieldDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fieldDefinition.json; sourceTree = "<group>"; };
 		1BC4C3D5187F8CA900433226 /* formDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = formDefinition.json; sourceTree = "<group>"; };
 		1BC4C3D6187F8CA900433226 /* lead01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lead01.json; sourceTree = "<group>"; };
 		1BC4C3D7187F8CA900433226 /* leadsArray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leadsArray.json; sourceTree = "<group>"; };
 		1BC4C3D8187F8CA900433226 /* sectionDefinition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sectionDefinition.json; sourceTree = "<group>"; };
-		1BC4C3D9187F8CA900433226 /* WDCFixtureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCFixtureLoader.h; sourceTree = "<group>"; };
-		1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCFixtureLoader.m; sourceTree = "<group>"; };
+		1BC4C3D9187F8CA900433226 /* DTVFixtureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVFixtureLoader.h; sourceTree = "<group>"; };
+		1BC4C3DA187F8CA900433226 /* DTVFixtureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVFixtureLoader.m; sourceTree = "<group>"; };
 		1BC4C3DB187F8CA900433226 /* LeadCapture Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeadCapture Tests-Info.plist"; sourceTree = "<group>"; };
 		1BC4C3DC187F8CA900433226 /* LeadCapture Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeadCapture Tests-Prefix.pch"; sourceTree = "<group>"; };
 		1BC4C3DD187F8CA900433226 /* LeadTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadTests.m; sourceTree = "<group>"; };
@@ -152,7 +159,6 @@
 		1BC4C3F6187F8CA900433226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LeadCapture-Info.plist"; sourceTree = "<group>"; };
 		1BC4C3F8187F8CA900433226 /* LeadCapture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeadCapture-Prefix.pch"; sourceTree = "<group>"; };
-		1BC4C3F9187F8CA900433226 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BC4C43E187F8FCD00433226 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
 		1BC4C440187F8FCD00433226 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
 		1BC4C441187F8FCD00433226 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
@@ -160,6 +166,20 @@
 		1BC4C443187F8FCD00433226 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		1BC4C444187F8FCD00433226 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		1BC4C445187F8FCD00433226 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		1BC4C48F187FA1AA00433226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC4C490187FA1AA00433226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BC4C491187FA1AA00433226 /* LMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
+		1BC4C492187FA1AA00433226 /* LMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
+		1BC4C493187FA1AA00433226 /* LMObjCUtils-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LMObjCUtils-Info.plist"; sourceTree = "<group>"; };
+		1BC4C494187FA1AA00433226 /* LMObjCUtils-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMObjCUtils-Prefix.pch"; sourceTree = "<group>"; };
+		1BC4C495187FA1AA00433226 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BC4C496187FA1AA00433226 /* NSMutableString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Utilities.h"; sourceTree = "<group>"; };
+		1BC4C497187FA1AA00433226 /* NSMutableString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Utilities.m"; sourceTree = "<group>"; };
+		1BC4C498187FA1AA00433226 /* LMObjCUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LMObjCUtils.xcodeproj; sourceTree = "<group>"; };
+		1BC4C49D187FA1AA00433226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC4C49E187FA1AA00433226 /* LMObjCUtilsTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LMObjCUtilsTests-Info.plist"; sourceTree = "<group>"; };
+		1BC4C49F187FA1AA00433226 /* NSMutableString_UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableString_UtilitiesTests.m; sourceTree = "<group>"; };
+		1BC4C4A0187FA1AA00433226 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +240,6 @@
 		1BC4C2C8187F8BCE00433226 /* DRYTableView */ = {
 			isa = PBXGroup;
 			children = (
-				1BC4C43C187F8E9700433226 /* View Controllers */,
 				1BC4C301187F8CA800433226 /* Services */,
 				1BC4C2D1187F8BCE00433226 /* DTVAppDelegate.h */,
 				1BC4C2D2187F8BCE00433226 /* DTVAppDelegate.m */,
@@ -254,6 +273,7 @@
 		1BC4C2F1187F8BD800433226 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				1BC4C48C187FA1AA00433226 /* LMObjCUtils */,
 				1BC4C43D187F8FA500433226 /* OCMock */,
 				1BC4C2F2187F8BE000433226 /* dtv */,
 			);
@@ -277,7 +297,6 @@
 				1BC4C2F4187F8CA800433226 /* AppDelegate.h */,
 				1BC4C2F5187F8CA800433226 /* AppDelegate.m */,
 				1BC4C2F6187F8CA800433226 /* Models */,
-				1BC4C2FF187F8CA800433226 /* Protocols */,
 				1BC4C304187F8CA800433226 /* TableViewCells */,
 				1BC4C309187F8CA800433226 /* ViewControllers */,
 			);
@@ -298,14 +317,6 @@
 				1BC4C2FE187F8CA800433226 /* DTVDomainModel.m */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		1BC4C2FF187F8CA800433226 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				1BC4C300187F8CA800433226 /* DTVPersistentModelProtocol.h */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		1BC4C301187F8CA800433226 /* Services */ = {
@@ -365,8 +376,8 @@
 				1BC4C3D6187F8CA900433226 /* lead01.json */,
 				1BC4C3D7187F8CA900433226 /* leadsArray.json */,
 				1BC4C3D8187F8CA900433226 /* sectionDefinition.json */,
-				1BC4C3D9187F8CA900433226 /* WDCFixtureLoader.h */,
-				1BC4C3DA187F8CA900433226 /* WDCFixtureLoader.m */,
+				1BC4C3D9187F8CA900433226 /* DTVFixtureLoader.h */,
+				1BC4C3DA187F8CA900433226 /* DTVFixtureLoader.m */,
 			);
 			path = fixtures;
 			sourceTree = "<group>";
@@ -407,25 +418,9 @@
 				1BC4C3F5187F8CA900433226 /* InfoPlist.strings */,
 				1BC4C3F7187F8CA900433226 /* LeadCapture-Info.plist */,
 				1BC4C3F8187F8CA900433226 /* LeadCapture-Prefix.pch */,
-				1BC4C3F9187F8CA900433226 /* main.m */,
 			);
 			name = SupportingFiles;
 			path = lib/dtv/SupportingFiles;
-			sourceTree = "<group>";
-		};
-		1BC4C43C187F8E9700433226 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				1BC4C30A187F8CA800433226 /* RootViewController.h */,
-				1BC4C30B187F8CA800433226 /* RootViewController.m */,
-				1BC4C30E187F8CA800433226 /* WDCLeadFormTableViewController.h */,
-				1BC4C30F187F8CA800433226 /* WDCLeadFormTableViewController.m */,
-				1BC4C310187F8CA800433226 /* WDCLeadFormTableViewController.xib */,
-				1BC4C311187F8CA800433226 /* WDCSplashViewController.h */,
-				1BC4C312187F8CA800433226 /* WDCSplashViewController.m */,
-				1BC4C313187F8CA800433226 /* WDCSplashViewController.xib */,
-			);
-			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		1BC4C43D187F8FA500433226 /* OCMock */ = {
@@ -448,6 +443,53 @@
 				1BC4C445187F8FCD00433226 /* OCMockRecorder.h */,
 			);
 			path = OCMock;
+			sourceTree = "<group>";
+		};
+		1BC4C48C187FA1AA00433226 /* LMObjCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C48D187FA1AA00433226 /* LMObjCUtils */,
+				1BC4C498187FA1AA00433226 /* LMObjCUtils.xcodeproj */,
+				1BC4C49B187FA1AA00433226 /* LMObjCUtilsTests */,
+				1BC4C4A0187FA1AA00433226 /* README.md */,
+			);
+			name = LMObjCUtils;
+			path = lib/LMObjCUtils;
+			sourceTree = "<group>";
+		};
+		1BC4C48D187FA1AA00433226 /* LMObjCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C48E187FA1AA00433226 /* InfoPlist.strings */,
+				1BC4C490187FA1AA00433226 /* Images.xcassets */,
+				1BC4C491187FA1AA00433226 /* LMAppDelegate.h */,
+				1BC4C492187FA1AA00433226 /* LMAppDelegate.m */,
+				1BC4C493187FA1AA00433226 /* LMObjCUtils-Info.plist */,
+				1BC4C494187FA1AA00433226 /* LMObjCUtils-Prefix.pch */,
+				1BC4C495187FA1AA00433226 /* main.m */,
+				1BC4C496187FA1AA00433226 /* NSMutableString+Utilities.h */,
+				1BC4C497187FA1AA00433226 /* NSMutableString+Utilities.m */,
+			);
+			path = LMObjCUtils;
+			sourceTree = "<group>";
+		};
+		1BC4C499187FA1AA00433226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C4AE187FA1AA00433226 /* LMObjCUtils.app */,
+				1BC4C4B0187FA1AA00433226 /* LMObjCUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC4C49B187FA1AA00433226 /* LMObjCUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4C49C187FA1AA00433226 /* InfoPlist.strings */,
+				1BC4C49E187FA1AA00433226 /* LMObjCUtilsTests-Info.plist */,
+				1BC4C49F187FA1AA00433226 /* NSMutableString_UtilitiesTests.m */,
+			);
+			path = LMObjCUtilsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +555,12 @@
 			mainGroup = 1BC4C2B6187F8BCE00433226;
 			productRefGroup = 1BC4C2C0187F8BCE00433226 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BC4C499187FA1AA00433226 /* Products */;
+					ProjectRef = 1BC4C498187FA1AA00433226 /* LMObjCUtils.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1BC4C2BE187F8BCE00433226 /* DRYTableView */,
@@ -521,6 +569,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1BC4C4AE187FA1AA00433226 /* LMObjCUtils.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LMObjCUtils.app;
+			remoteRef = 1BC4C4AD187FA1AA00433226 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BC4C4B0187FA1AA00433226 /* LMObjCUtilsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LMObjCUtilsTests.xctest;
+			remoteRef = 1BC4C4AF187FA1AA00433226 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1BC4C2BD187F8BCE00433226 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -528,7 +593,6 @@
 			files = (
 				1BC4C42E187F8CA900433226 /* icon.png in Resources */,
 				1BC4C426187F8CA900433226 /* Default-Landscape~ipad.png in Resources */,
-				1BC4C407187F8CA900433226 /* WDCSplashViewController.xib in Resources */,
 				1BC4C41C187F8CA900433226 /* LeadCapture Tests-Info.plist in Resources */,
 				1BC4C429187F8CA900433226 /* Default.png in Resources */,
 				1BC4C42C187F8CA900433226 /* icon-72.png in Resources */,
@@ -541,7 +605,6 @@
 				1BC4C2CD187F8BCE00433226 /* InfoPlist.strings in Resources */,
 				1BC4C427187F8CA900433226 /* Default-Portrait@2x~ipad.png in Resources */,
 				1BC4C418187F8CA900433226 /* lead01.json in Resources */,
-				1BC4C405187F8CA900433226 /* WDCLeadFormTableViewController.xib in Resources */,
 				1BC4C432187F8CA900433226 /* InfoPlist.strings in Resources */,
 				1BC4C416187F8CA900433226 /* fieldDefinition.json in Resources */,
 				1BC4C42A187F8CA900433226 /* Default@2x.png in Resources */,
@@ -549,7 +612,6 @@
 				1BC4C419187F8CA900433226 /* leadsArray.json in Resources */,
 				1BC4C424187F8CA900433226 /* Default-568h@2x.png in Resources */,
 				1BC4C2D5187F8BCE00433226 /* Images.xcassets in Resources */,
-				1BC4C430187F8CA900433226 /* SalesforceSDKResources.bundle in Resources */,
 				1BC4C417187F8CA900433226 /* formDefinition.json in Resources */,
 				1BC4C42F187F8CA900433226 /* icon@2x.png in Resources */,
 			);
@@ -559,7 +621,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC4C4A2187FA1AA00433226 /* Images.xcassets in Resources */,
+				1BC4C4A4187FA1AA00433226 /* LMObjCUtils-Info.plist in Resources */,
 				1BC4C2E6187F8BCF00433226 /* InfoPlist.strings in Resources */,
+				1BC4C4AA187FA1AA00433226 /* README.md in Resources */,
+				1BC4C4A1187FA1AA00433226 /* InfoPlist.strings in Resources */,
+				1BC4C4A7187FA1AA00433226 /* InfoPlist.strings in Resources */,
+				1BC4C4A8187FA1AA00433226 /* LMObjCUtilsTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,18 +640,13 @@
 			files = (
 				1BC4C3FE187F8CA900433226 /* DTVDomainModel.m in Sources */,
 				1BC4C3FC187F8CA900433226 /* DTVFormField.m in Sources */,
-				1BC4C404187F8CA900433226 /* WDCLeadFormTableViewController.m in Sources */,
 				1BC4C401187F8CA900433226 /* DTVTextInputCell.m in Sources */,
 				1BC4C2CF187F8BCE00433226 /* main.m in Sources */,
-				1BC4C41B187F8CA900433226 /* WDCFixtureLoader.m in Sources */,
+				1BC4C41B187F8CA900433226 /* DTVFixtureLoader.m in Sources */,
 				1BC4C3FD187F8CA900433226 /* DTVFormSection.m in Sources */,
-				1BC4C434187F8CA900433226 /* main.m in Sources */,
 				1BC4C2D3187F8BCE00433226 /* DTVAppDelegate.m in Sources */,
 				1BC4C403187F8CA900433226 /* DTVConfigDrivenTableViewController.m in Sources */,
 				1BC4C3FA187F8CA900433226 /* AppDelegate.m in Sources */,
-				1BC4C402187F8CA900433226 /* RootViewController.m in Sources */,
-				1BC4C406187F8CA900433226 /* WDCSplashViewController.m in Sources */,
-				1BC4C3FF187F8CA900433226 /* WDCSalesForceDAO.m in Sources */,
 				1BC4C3FB187F8CA900433226 /* DTVFormDataProvider.m in Sources */,
 				1BC4C400187F8CA900433226 /* DTVConfigDrivenTableViewCell.m in Sources */,
 			);
@@ -597,9 +660,13 @@
 				1BC4C43B187F8D1500433226 /* WDCLeadFormTableViewControllerTests.m in Sources */,
 				1BC4C437187F8D1500433226 /* WDCConfigDrivenTableViewControllerTests.m in Sources */,
 				1BC4C435187F8D0D00433226 /* LeadTests.m in Sources */,
+				1BC4C4A9187FA1AA00433226 /* NSMutableString_UtilitiesTests.m in Sources */,
 				1BC4C438187F8D1500433226 /* WDCFormDataProviderTests.m in Sources */,
 				1BC4C43A187F8D1500433226 /* WDCFormSectionTests.m in Sources */,
 				1BC4C439187F8D1500433226 /* WDCFormFieldTests.m in Sources */,
+				1BC4C4A5187FA1AA00433226 /* main.m in Sources */,
+				1BC4C4A3187FA1AA00433226 /* LMAppDelegate.m in Sources */,
+				1BC4C4A6187FA1AA00433226 /* NSMutableString+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +701,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				1BC4C3F6187F8CA900433226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BC4C48E187FA1AA00433226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC4C48F187FA1AA00433226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BC4C49C187FA1AA00433226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC4C49D187FA1AA00433226 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -720,6 +803,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRYTableView/DRYTableView-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/lib/**",
+				);
 				INFOPLIST_FILE = "DRYTableView/DRYTableView-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -744,6 +832,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRYTableView/DRYTableView-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/lib/**",
+				);
 				INFOPLIST_FILE = "DRYTableView/DRYTableView-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
